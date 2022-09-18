@@ -1,5 +1,10 @@
 #!/bin/bash
 
+
+REP="/home/runner/${REPL_SLUG}"
+mkdir -p ${REP}/.bin
+mkdir -p ${REP}/.include
+
 # replit files
 wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh
 
