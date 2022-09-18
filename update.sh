@@ -1,10 +1,9 @@
 #!/bin/bash
 
-REP = "/home/runner/${REPL_SLUG}"
-
 # replit files
-up=${REP}/.bin/update.sh
-wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O $up
+wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh
+
+REP="/home/runner/${REPL_SLUG}"
 
 md=${REP}/Readme.md
 wget https://raw.githubusercontent.com/senapk/replit/master/runner.md -O $md
