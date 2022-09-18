@@ -1,0 +1,10 @@
+run = "tk loop"
+hidden = ["main", "**/*.o", "**/*.d", ".ccls-cache", "Makefile", ".*", "alias.sh", "**/__*", "package-lock.json"]
+entrypoint = "Readme.md"
+onBoot="update.sh"
+
+[env]
+VIRTUAL_ENV = "/home/runner/${REPL_SLUG}"
+PATH = "${VIRTUAL_ENV}/.bin"
+CPATH = "${VIRTUAL_ENV}/.include"
+
