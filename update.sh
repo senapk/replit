@@ -23,7 +23,7 @@ wget https://raw.githubusercontent.com/senapk/replit/master/replit -O $cfg
 tk=${REP}/.bin/tk.py
 wget https://raw.githubusercontent.com/senapk/tk/master/tk.py -O $tk
 chmod +x $tk
-ln -sf $tk ${REP}/tk
+ln -sf $tk ${REP}/.bin/tk
 
 # baixando aux
 aux=${REP}/.include/aux.hpp
