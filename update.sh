@@ -1,14 +1,14 @@
 #!/bin/bash
 
-
 REP="/home/runner/${REPL_SLUG}"
 mkdir -p ${REP}/.bin
 mkdir -p ${REP}/.include
 
 # replit files
-wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh
-
-REP="/home/runner/${REPL_SLUG}"
+up=${REP}/.bin/update.sh
+wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O ${up}
+ln -sf ${up} ${REP}/.bin/update
+chmod +x ${up}
 
 md=${REP}/Readme.md
 wget https://raw.githubusercontent.com/senapk/replit/master/runner.md -O $md
@@ -23,6 +23,7 @@ wget https://raw.githubusercontent.com/senapk/replit/master/replit -O $cfg
 tk=${REP}/.bin/tk.py
 wget https://raw.githubusercontent.com/senapk/tk/master/tk.py -O $tk
 chmod +x $tk
+ln -sf $tk ${REP}/tk
 
 # baixando aux
 aux=${REP}/.include/aux.hpp

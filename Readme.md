@@ -11,3 +11,15 @@
 4. Olhe no repositório qual problema quer fazer e anote o número do rótulo com 3 dígitos. Ex: Se você está tentando resolver a questão [**@003 Opala Bebedor**](https://github.com/qxcodefup/moodle/blob/master/base/003/Readme.md#003-l2---opala-bebedor) o rótulo é 003. 
 5. Digite "d" e enter para "download". Passe o valor "003", escolha a linguagem. Se os arquivos baixados não aparecerem no visualizador de arquivos, dê um refresh na página.
 6. Digite "r" para "run", passe o valor "003".
+
+
+## Atualizando seu replit
+
+1. Abre o shell e digite `update` e aperte enter.
+2. Se não funcionar, você pode pegar a versão mais nova do script de atualização rodando os seguintes comandos no terminal do replit
+
+```bash
+wget https://raw.githubusercontent.com/senapk/replit/master/update.sh
+chmod +x update.sh
+./update.sh
+```
