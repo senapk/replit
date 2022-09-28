@@ -9,7 +9,7 @@ Para atualizar seu replit basta digitar `update.sh` no shell. Se você
 estiver com uma versão muito antiga basta colar os seguintes comandos no shell:
 
 ```bash
-wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh && bash /home/runner/${REPL_SLUG}/.bin/update.sh && rm /home/runner/${REPL_SLUG}/.bin/update.sh
+wget https://raw.githubusercontent.com/senapk/replit/master/update.sh  && bash update.sh && rm update.sh
 ```
 ```
 ```

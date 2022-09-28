@@ -17,7 +17,7 @@ chmod +x ${REP}/.bin/update.sh
 # baixando tk
 TKREMOTE="https://raw.githubusercontent.com/senapk/tk/master"
 tk=${REP}/.bin/tk.py
-wget -nv {TKREMOTE}/tk.py -O $tk
+wget -nv ${TKREMOTE}/tk.py -O $tk
 chmod +x $tk
 ln -sf $tk ${REP}/.bin/tk
 
