@@ -10,9 +10,6 @@ wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O ${up}
 ln -sf ${up} ${REP}/.bin/update
 chmod +x ${up}
 
-md=${REP}/Readme.md
-wget https://raw.githubusercontent.com/senapk/replit/master/runner.md -O $md
-
 nix=${REP}/replit.nix
 wget https://raw.githubusercontent.com/senapk/replit/master/replit.nix -O $nix
 
