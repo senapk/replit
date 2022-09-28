@@ -4,6 +4,18 @@
 - [Questões de POO](https://github.com/qxcodepoo/arcade)
 - [Questões de ED](https://github.com/qxcodeed/arcade)
 
+## Atualizando depois do fork 
+Para atualizar seu replit basta digitar `update.sh` no shell. Se você
+estiver com uma versão muito antiga basta colar os seguintes comandos no shell:
+
+```bash
+wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh && bash /home/runner/${REPL_SLUG}/.bin/update.sh && rm /home/runner/${REPL_SLUG}/.bin/update.sh
+```
+```
+```
+
+```
+
 ## Rodando via Botão Run
 1. Aperte o botão verde run e espere carregar o menu.
 2. Digite h ou help no console e tecle enter para ver as opções do menu.
