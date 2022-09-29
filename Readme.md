@@ -11,10 +11,7 @@ estiver com uma versão muito antiga basta colar os seguintes comandos no shell:
 ```bash
 wget https://raw.githubusercontent.com/senapk/replit/master/update.sh  && bash update.sh && rm update.sh
 ```
-```
-```
 
-```
 
 ## Rodando via Botão Run
 1. Aperte o botão verde run e espere carregar o menu.
