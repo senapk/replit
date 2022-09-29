@@ -22,14 +22,3 @@ wget https://raw.githubusercontent.com/senapk/replit/master/update.sh  && bash u
 6. Digite "r" para "run", passe o valor "003".
 
 
-## Atualizando seu replit
-
-1. Abre o shell e digite `update` e aperte enter.
-2. Se não funcionar, você pode pegar a versão mais nova do script de atualização rodando os seguintes comandos no terminal do replit
-
-```bash
-wget https://raw.githubusercontent.com/senapk/replit/master/update.sh -O /home/runner/${REPL_SLUG}/.bin/update.sh
-chmod +x /home/runner/${REPL_SLUG}/.bin/update.sh
-/home/runner/${REPL_SLUG}/.bin/update.sh
-```
-
